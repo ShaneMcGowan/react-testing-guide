@@ -59,7 +59,7 @@ const renderHelper = (partialProps: Partial<Props> = {}) => {
 };
 ```
 
-### Selectors
+### Selectors
 
 Your component code is going to be littered with `data-testid` attributes, this is how we are going to target sections of our app in our tests.
 There are 3 types of querying these
